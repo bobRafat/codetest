@@ -11,7 +11,7 @@ const mainRouter= require('./routes/main');
 
 app.use('/',mainRouter);
 
-app.listen(5000, function(){
+app.listen(80, function(){
     console.log(`app is listening on port 5000`);
 });
 
