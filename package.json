@@ -1,0 +1,22 @@
+{
+  "name": "codetest",
+  "version": "1.0.0",
+  "description": "this is a test api web service.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Babak Rafat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "sinon": "7.0.0"
+  }
+}
